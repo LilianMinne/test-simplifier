@@ -1,0 +1,40 @@
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+    <status value="final"/> 
+    <code> 
+        <coding> 
+            <system value="http://snomed.info/sct"/> 
+            <code value="51597003"/> 
+            <display value="Manual palpation of vagina (procedure) "/> 
+        </coding> 
+    </code> 
+    <subject> 
+        <reference value="Patient/XXX-VDWOUDEN"/> 
+    </subject> 
+    <effectiveDateTime value="2017-06-22T12:41:00+01:00"/> 
+    <performer> 
+        <actor> 
+            <reference value="Organization/verloskundigenpraktijk-A"/> 
+        </actor> 
+    </performer> 
+    <result> 
+        <reference value="Observation/wouden-portio"/> 
+    </result> 
+    <result> 
+        <reference value="Observation/wouden-positie-portio"/> 
+    </result> 
+    <result> 
+        <reference value="Observation/wouden-ontsluiting"/> 
+    </result> 
+    <result> 
+        <reference value="Observation/wouden-vliezen"/> 
+    </result> 
+    <result> 
+        <reference value="Observation/wouden-indaling-hodge"/> 
+    </result> 
+    <result> 
+        <reference value="Observation/wouden-aard-voorliggend-deel"/> 
+    </result> 
+    <result> 
+        <reference value="Observation/wouden-stand"/> 
+    </result> 
+</DiagnosticReport> 
