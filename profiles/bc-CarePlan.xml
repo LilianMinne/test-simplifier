@@ -166,13 +166,5 @@
         <comment value="Probleem" />
       </mapping>
     </element>
-    <element id="CarePlan.activity.detail.code.text">
-      <path value="CarePlan.activity.detail.code.text" />
-      <mapping>
-        <identity value="gebz-peri-v3.2" />
-        <map value="peri32-dataelement-3860" />
-        <comment value="Activiteit" />
-      </mapping>
-    </element>
   </differential>
 </StructureDefinition>
